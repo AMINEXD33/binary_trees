@@ -3,16 +3,16 @@
 #include <stdlib.h>
 
 /**
- * binary_tree_preorder - Performs a pre-order traversal on a binary tree.
+ * binary_tree_inorder - Performs a in-order traversal on a binary tree.
  * @tree: A pointer to the root node of the tree to traverse.
  * @func: A pointer to a function that takes an integer argument.
  */
 void binary_tree_inorder(const binary_tree_t *tree, void (*func)(int))
 {
-        if (tree && func)
-        {
-                binary_tree_inorder(tree->left, func);
-                func(tree->n);
-                binary_tree_inorder(tree->right, func);
-        }
+	if (tree && func)
+	{
+		binary_tree_inorder(tree->left, func);
+		func(tree->n);
+		binary_tree_inorder(tree->right, func);
+	}
 }
