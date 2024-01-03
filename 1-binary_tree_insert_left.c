@@ -19,11 +19,13 @@ binary_tree_t *binary_tree_insert_left(binary_tree_t *parent, int value)
 	/*the parent needs to exists*/
 	if (parent == NULL || !parent)
 		return (NULL);
+
 	/*node config*/
 	node->n = value;
 	node->left = NULL;
 	node->right = NULL;
-	node->parent = parent;
+	//node->parent = parent;
+
 	/*insert into the left pointer of the parent*/
 	if (parent->left != NULL)
 	{
