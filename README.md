@@ -110,3 +110,80 @@ Function Prototypes
 * **6. Pre-order traversal**
   * [6-binary_tree_preorder.c](./6-binary_tree_preorder.c): C function that
   traverses a tree using pre-order traversal.
+
+* **7. In-order traversal**
+  * [7-binary_tree_inorder.c](./7-binary_tree_inorder.c): C function that
+  traverses a tree using in-order traversal.
+
+* **8. Post-order traversal**
+  * [8-binary_tree_postorder.c](./8-binary_tree_postorder.c): C function that
+  traverses a tree using post-order traversal.
+
+* **9. Height**
+  * [9-binary_tree_height.c](./9-binary_tree_height.c): C function that returns
+  the height of a binary tree.
+
+* **10. Depth**
+  * [10-binary_tree_depth.c](./10-binary_tree_depth.c): C function that returns
+  the depth of a given node in a binary tree.
+
+* **11. Size**
+  * [11-binary_tree_size.c](./11-binary_tree_size.c): C function that returns
+  the size of a binary tree.
+
+* **12. Leaves**
+  * [12-binary_tree_leaves.c](./12-binary_tree_leaves.c): C function that returns
+  the number of leaves in a binary tree.
+
+* **13. Nodes**
+  * [13-binary_tree_nodes.c](./13-binary_tree_nodes.c): C function that returns
+  the number of nodes in a binary tree with at least one child.
+
+* **14. Balance factor**
+  * [14-binary_tree_balance.c](./14-binary_tree_balance.c): C function that
+  returns the balance factor of a binary tree.
+
+* **15. Is full**
+  * [15-binary_tree_is_full.c](./15-binary_tree_is_full.c): C function that
+  checks if a binary tree is full.
+  * Returns `1` if a tree is full, `0` otherwise.
+
+* **16. Is perfect**
+  * [16-binary_tree_is_perfect.c](./16-binary_tree_is_perfect.c): C function
+  that checks if a binary tree is perfect.
+  * Returns `1` if a tree is perfect, `0` otherwise.
+
+* **17. Sibling**
+  * [17-binary_tree_sibling.c](./17-binary_tree_sibling.c): C function that
+  returns a pointer to the sibling of a given node in a binary tree.
+  * Returns `NULL` if no sibling is found.
+
+* **18. Uncle**
+  * [18-binary_tree_uncle.c](./18-binary_tree_uncle.c): C function that
+  returns a pointer to the uncle of a given node in a binary tree.
+  * Returns `NULL` if no uncle is found.
+
+* **19. Lowest common ancestor**
+  * [100-binary_trees_ancestor.c](./100-binary_trees_ancestor.c): C function
+  that returns a pointer to the lowest common ancestor node of two given nodes
+  in a binary tree.
+  * Returns `NULL` if no common ancestor is found.
+
+* **20. Level-order traversal**
+  * [101-binary_tree_levelorder.c](./101-binary_tree_levelorder.c): C function
+  that traverses a binary tree using level-order traversal.
+
+* **21. Is complete**
+  * [102-binary_tree_is_complete.c](./102-binary_tree_is_complete.c): C function
+  that checks if a binary tree is complete.
+  * Returns `1` if the tree is complete, `0` otherwise.
+
+* **22. Rotate left**
+  * [103-binary_tree_rotate_left.c](./103-binary_tree_rotate_left.c): C function
+  that performs a left-rotation on a binary tree.
+  * Returns a pointer to the new root node of the tree after rotation.
+
+* **23. Rotate right**
+  * [104-binary_tree_rotate_right.c](./104-binary_tree_rotate_right.c): C function
+  that performs a right-rotation on a binary tree.
+  * Returns a pointer to the new root node of the tree after rotation.
